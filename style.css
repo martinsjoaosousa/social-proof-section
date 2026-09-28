@@ -1,0 +1,24 @@
+:root {
+    --color-background-testimonials: hsl(300, 43%, 22%);
+    --color-subheading-testimonials: hsl(333, 80%, 67%);
+    --color-background-rating: hsl(300, 24%, 96%);
+    --color-text-primary: hsl(303, 10%, 53%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
