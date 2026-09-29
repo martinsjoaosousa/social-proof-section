@@ -12,7 +12,37 @@
 }
 
 body {
-    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+}
+
+header > h1 {
+    color: var(--color-background-testimonials);
+}
+
+header > p {
+    color: var(--color-text-primary);
+}
+
+.testimonial {
+    background-color: var(--color-background-testimonials);
+}
+
+.testimonial > p {
+    color: white;
+}
+
+.name {
+    color: white;
+    font-weight: 500;
+}
+
+.verified {
+    color: var(--color-subheading-testimonials);
+}
+
+.star-rating p {
+    font-weight: 700;
+    color: var(--color-background-testimonials);
 }
 
 .attribution {
