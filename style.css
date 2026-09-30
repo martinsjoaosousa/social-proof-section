@@ -33,17 +33,17 @@ header {
     gap: 2rem;
 }
 
+h1 {
+    color: var(--color-background-testimonials);
+    width: 80%;
+}
+
 .header-text {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     gap: 1rem;
-}
-
-.header-text h1 {
-    color: var(--color-background-testimonials);
-    width: 80%;
 }
 
 .header-text p {
@@ -126,4 +126,76 @@ header {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+    body {
+        background: no-repeat url("./images/bg-pattern-top-desktop.svg");
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        display: flex;
+        flex: 1;
+    }
+
+    section {
+        padding: 10rem;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 2.75rem;
+        width: 70%;
+    }
+
+    .header-text {
+        text-align: left;
+        align-items: start;
+    }
+
+    .header-text p {
+        width: 80%;
+    }
+
+    .star-rating {
+        align-items: end;
+        padding-top: 1rem;
+    }
+
+    .rating {
+        flex-direction: row;
+        width: 400px;
+        gap: 2rem;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .reviews {
+        margin-right: 5rem;
+    }
+
+    .report-guru {
+        margin-right: 2.5rem;
+    }
+
+    .testimonials {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .irene-roberts {
+        position: relative;
+        top: 1rem;
+    }
+
+    .anne-wallace {
+        position: relative;
+        top: 2rem;
+    }
 }
