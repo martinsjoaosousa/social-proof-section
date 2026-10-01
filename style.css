@@ -71,8 +71,20 @@ h1 {
 .stars {
     width: 6rem;
     height: 16px;
-    background: url("./images/icon-star.svg");
-    background-repeat: space;
+    flex-shrink: 0;
+    background-image:
+        url("./images/icon-star.svg"),
+        url("./images/icon-star.svg"),
+        url("./images/icon-star.svg"),
+        url("./images/icon-star.svg"),
+        url("./images/icon-star.svg");
+    background-repeat: no-repeat;
+    background-position:
+        0 0,
+        1.25rem 0,
+        2.5rem 0,
+        3.75rem 0,
+        5rem 0;
 }
 
 .testimonials {
@@ -170,18 +182,18 @@ h1 {
 
     .rating {
         flex-direction: row;
-        width: 400px;
+        width: min(100%, 28rem);
         gap: 2rem;
         align-items: flex-start;
         justify-content: center;
     }
 
-    .reviews {
-        margin-right: 5rem;
+    .rating:first-child {
+        transform: translateX(-5rem);
     }
 
-    .report-guru {
-        margin-right: 2.5rem;
+    .rating:nth-child(2) {
+        transform: translateX(-2.5rem);
     }
 
     .testimonials {
@@ -189,13 +201,11 @@ h1 {
         gap: 1.5rem;
     }
 
-    .irene-roberts {
-        position: relative;
-        top: 1rem;
+    .testimonial:nth-child(2) {
+        transform: translateY(1rem);
     }
 
-    .anne-wallace {
-        position: relative;
-        top: 2rem;
+    .testimonial:nth-child(3) {
+        transform: translateY(2rem);
     }
 }
