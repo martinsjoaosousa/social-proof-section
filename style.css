@@ -154,6 +154,8 @@ h1 {
     }
 
     section {
+        display: flex;
+        justify-content: center;
         padding: 10rem;
     }
 
