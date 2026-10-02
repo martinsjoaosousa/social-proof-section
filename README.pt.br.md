@@ -34,8 +34,8 @@ Os usuários devem ser capazes de:
 
 ### 🔗 Links
 
-- URL da solução: [](https://your-solution-url.com)
-- URL do site: [](https://your-live-site-url.com)
+- URL da solução: [https://www.frontendmentor.io/solutions/responsive-social-proof-section-using-flexbox-and-media-query-ZwlS2B02jG](https://www.frontendmentor.io/solutions/responsive-social-proof-section-using-flexbox-and-media-query-ZwlS2B02jG)
+- URL do site: [https://martinsjoaosousa.github.io/social-proof-section/](https://martinsjoaosousa.github.io/social-proof-section/)
 
 ## 💭 Meu processo
 
